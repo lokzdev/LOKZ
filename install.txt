@@ -1,7 +1,7 @@
 pkg update && pkg upgrade -y
 pkg install python
 pkg install git
-git clone https://github.com/lokzdev/PAINEL-CONSULTAS.git
-cd PAINEL-CONSULTAS
+git clone https://github.com/lokzdev/LOKZ.git
+cd LOKZ
 pip install -r requirements.txt
-python main.py
+./main
